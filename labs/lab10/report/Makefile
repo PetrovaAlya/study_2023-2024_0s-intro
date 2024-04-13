@@ -16,7 +16,7 @@ FORMAT_OPTIONS =
 ## Use pandoc-crossref (https://github.com/lierdakil/pandoc-crossref)
 FILTERS += 
 ###
-PDF_ENGINE += --pdf-engine=weasyprint 
+PDF_ENGINE += --pdf-engine=weasyprint
 OPTIONS += --number-sections
 BIB_OPTIONS = --citeproc
 
